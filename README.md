@@ -37,17 +37,28 @@ It includes testing of basic mathematical operations, handling edge cases, excep
 
 ### 1. Clone the repository
 
+.
+├── pythondemo.py
+├── test_pythondemo.py
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/pytest-experiment.git
 cd pytest-experiment
-
 2. Install dependencies
 pip install pytest
 3. Verify installation
 pytest --version
 Running the Tests
 pytest -v
-Functions Implemented
+```
+🧪 Functions Implemented
 add(a, b) → Returns sum
 subtract(a, b) → Returns difference
 multiply(a, b) → Returns product
@@ -66,6 +77,7 @@ Multiple input combinations tested
 Factorial of 0 and 1
 Even/odd number validation
 📊 Sample Output
+
 test_pythondemo.py::test_add PASSED
 test_pythondemo.py::test_multiply_fail FAILED
 test_pythondemo.py::test_divide_by_zero PASSED
@@ -82,6 +94,7 @@ Learned how to write and execute unit tests
 Understood debugging using test failures
 Gained experience in handling edge cases
 Explored parameterized and exception testing
+
 👩‍💻 Author
 
 Sasmita Das
@@ -89,3 +102,8 @@ Sasmita Das
 ⭐ Acknowledgement
 
 This experiment was performed as part of the Open Source Technologies Lab.
+
+
+---
+
+
